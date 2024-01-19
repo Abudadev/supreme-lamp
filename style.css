@@ -1,0 +1,35 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.button{
+    color: white;
+    letter-spacing: 15px;
+}
+
+
+.back{
+    background-image:url("Background2.jpg");
+    border-radius: 200px;
+    color: black;
+    height: 150px;
+    animation-name: backgroundy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+canvas{
+    border: white 5px black;
+    border-radius: 20px;
+}
+
+@keyframes backgroundy{
+    from{
+     background-image: url("Background2.jpg");
+    }
+
+    to{
+        background-image: url("background3.jpg");
+    }
+}
